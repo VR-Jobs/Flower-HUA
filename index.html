@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flower-HUA · 程序化花朵六件套</title>
+<style>
+  :root{
+    --bg:#0b1018; --card:#141c29; --line:#26344a; --ink:#e8eefc; --dim:#93a4c0;
+    --gold:#ffd257; --accent:#7fb0ff;
+  }
+  @media (prefers-color-scheme:light){
+    :root{--bg:#f5f7fb;--card:#fff;--line:#dde3ee;--ink:#16202f;--dim:#5a6a85;--accent:#2f6fd0}
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:400 16px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Segoe UI",sans-serif}
+  header{max-width:1080px;margin:0 auto;padding:56px 24px 8px}
+  h1{margin:0 0 6px;font-size:32px;letter-spacing:.02em}
+  .sub{color:var(--dim);margin:0 0 4px}
+  .note{color:var(--dim);font-size:14px;margin-top:18px;padding:12px 16px;
+    border-left:3px solid var(--gold);background:color-mix(in srgb,var(--gold) 8%,transparent)}
+  main{max-width:1080px;margin:0 auto;padding:24px;display:grid;gap:18px;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;
+    display:flex;flex-direction:column;gap:10px;text-decoration:none;color:inherit;
+    transition:transform .16s ease,border-color .16s ease}
+  .card:hover{transform:translateY(-3px);border-color:var(--accent)}
+  .card h2{margin:0;font-size:19px}
+  .card p{margin:0;color:var(--dim);font-size:14.5px;flex:1}
+  .meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12.5px;color:var(--dim)}
+  .tag{border:1px solid var(--line);border-radius:999px;padding:2px 9px}
+  .go{color:var(--accent);font-weight:600;font-size:14px}
+  .emoji{font-size:26px;line-height:1}
+  footer{max-width:1080px;margin:0 auto;padding:12px 24px 64px;color:var(--dim);font-size:14px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+  <h1>🌸 Flower-HUA · 程序化花朵六件套</h1>
+  <p class="sub">同一套程序化花朵引擎，六种玩法。每个都是单文件 HTML，点开即用，无需安装、无需联网。</p>
+  <p class="sub">One procedural flower engine, six ways to play with it. Every page is a single self-contained HTML file.</p>
+</header>
+
+<main>
+  <a class="card" href="demos/display-case.html">
+    <div class="emoji">🗂</div>
+    <h2>花朵陈列柜 · Display Case</h2>
+    <p>40 种花各占一格的接触印相表。拖动鼠标任意角度旋转全部花朵，方向键 90° 切换正／侧／俯视，空格全体绽放或合拢。</p>
+    <div class="meta"><span class="tag">2.4 MB</span><span class="tag">40 种花</span><span class="tag">Esc 全屏</span></div>
+    <span class="go">打开 →</span>
+  </a>
+
+  <a class="card" href="demos/flower-editor-lite.html">
+    <div class="emoji">🎨</div>
+    <h2>鲜花编辑器 · Flower Editor</h2>
+    <p>魔兽地图编辑器式的种花工具：三种地形、39 种花、批量种植、画笔连种、14 种画风、撤销重做、存档分享、漫游模式。</p>
+    <div class="meta"><span class="tag">2.8 MB</span><span class="tag">轻量版</span><span class="tag"><a href="demos/flower-editor.html">完整版含 AR 手势 · 29 MB</a></span></div>
+    <span class="go">打开 →</span>
+  </a>
+
+  <a class="card" href="demos/flower-world.html">
+    <div class="emoji">🌈</div>
+    <h2>鲜花世界 · Flower World</h2>
+    <p>上千朵花铺满的花海世界：百花曼陀罗、花拱门、混植花境、巨型花束丘，可第一人称走进花下。</p>
+    <div class="meta"><span class="tag">2.5 MB</span><span class="tag">千朵级实例化</span></div>
+    <span class="go">打开 →</span>
+  </a>
+
+  <a class="card" href="demos/garden-walk.html">
+    <div class="emoji">🚶</div>
+    <h2>花园漫游 · Garden Walk</h2>
+    <p>低多边形小人在花园里散步，走近花坛会显示花名。WASD 行走，Shift 奔跑。</p>
+    <div class="meta"><span class="tag">2.4 MB</span><span class="tag">第三人称</span></div>
+    <span class="go">打开 →</span>
+  </a>
+
+  <a class="card" href="demos/gallery.html">
+    <div class="emoji">🖼</div>
+    <h2>花朵画廊 · Gallery</h2>
+    <p>36 种花逐一细看的转盘画廊，带下拉选择与 <code>#flower-id</code> 深链。</p>
+    <div class="meta"><span class="tag">2.4 MB</span><span class="tag">36 种花</span></div>
+    <span class="go">打开 →</span>
+  </a>
+
+  <a class="card" href="demos/flower-studio.html">
+    <div class="emoji">🛠</div>
+    <h2>Flower Studio · 完整工作台</h2>
+    <p>原始的完整编辑工作台：调参、改解剖结构、换配色、导出。功能最全，体积也最大。</p>
+    <div class="meta"><span class="tag">45 MB</span><span class="tag">加载较慢</span></div>
+    <span class="go">打开 →</span>
+  </a>
+</main>
+
+<footer>
+  <p class="note">
+    ⚠️ 完整版编辑器（29 MB）与 Flower Studio（45 MB）体积较大，在线打开需要等待较长时间；建议直接下载后本地双击运行。
+  </p>
+  <p>
+    本项目的花朵引擎源自 <a href="https://github.com/whitecat-captain/bloom-animation">whitecat-captain/bloom-animation</a>。
+    上游仓库未声明开源许可证，因此本仓库同样未附带许可证文件，转载与再利用条款请以上游作者的意见为准。
+  </p>
+</footer>
+</body>
+</html>
