@@ -95,10 +95,18 @@ node src/build-flower-page.cjs all          gallery.html
 
 ---
 
+## 📄 许可 · Licence
+
+[MIT](LICENSE) © VR-Jobs
+
+上游项目同为 MIT，本仓库沿用。
+
+---
+
 ## 🌱 源起与致谢 · Origin & Credits
 
 本项目的花朵引擎，源自 **whitecat-captain/bloom-animation**。
 
 > Upstream: https://github.com/whitecat-captain/bloom-animation
-
-**关于许可证**：上游仓库**未声明任何开源许可证**。因此本仓库也没有附带 LICENSE 文件——在上游作者明确授权之前，转载、修改与再分发的条款处于未定状态。如果你打算在自己的项目里使用，请先联系上游作者。
+> · 在线演示 <https://bloom-animation-mu.vercel.app>
+> · 作者 [@whitecat-captain](https://github.com/whitecat-captain)
