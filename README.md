@@ -10,15 +10,15 @@ One procedural flower engine, six ways to play with it. Every page is a single s
 
 ## 六个项目 · The six
 
-| | 项目 | 云端预览 | 文件 | 大小 |
-|---|---|---|---|---|
-| 🗂 | **花朵陈列柜** Display Case | [打开](https://vr-jobs.github.io/Flower-HUA/demos/display-case.html) | [`demos/display-case.html`](demos/display-case.html) | 2.4 MB |
-| 🎨 | **鲜花编辑器** Flower Editor（轻量版） | [打开](https://vr-jobs.github.io/Flower-HUA/demos/flower-editor-lite.html) | [`demos/flower-editor-lite.html`](demos/flower-editor-lite.html) | 2.8 MB |
-| 🖐 | **鲜花编辑器** 完整版（含 AR 手势） | [打开](https://vr-jobs.github.io/Flower-HUA/demos/flower-editor.html) | [`demos/flower-editor.html`](demos/flower-editor.html) | 29 MB |
-| 🌈 | **鲜花世界** Flower World | [打开](https://vr-jobs.github.io/Flower-HUA/demos/flower-world.html) | [`demos/flower-world.html`](demos/flower-world.html) | 2.5 MB |
-| 🚶 | **花园漫游** Garden Walk | [打开](https://vr-jobs.github.io/Flower-HUA/demos/garden-walk.html) | [`demos/garden-walk.html`](demos/garden-walk.html) | 2.4 MB |
-| 🖼 | **花朵画廊** Gallery | [打开](https://vr-jobs.github.io/Flower-HUA/demos/gallery.html) | [`demos/gallery.html`](demos/gallery.html) | 2.4 MB |
-| 🛠 | **Flower Studio** 完整工作台 | [打开](https://vr-jobs.github.io/Flower-HUA/demos/flower-studio.html) | [`demos/flower-studio.html`](demos/flower-studio.html) | 45 MB |
+| | 项目 | 截图 | 云端预览 | 文件 | 大小 |
+|---|---|---|---|---|---|
+| 🗂 | **花朵陈列柜** Display Case | <img src="images/demo-display-case.png" width="240" alt=""> | [打开](https://vr-jobs.github.io/Flower-HUA/demos/display-case.html) | [`demos/display-case.html`](demos/display-case.html) | 2.4 MB |
+| 🎨 | **鲜花编辑器** Flower Editor（轻量版） | <img src="images/demo-flower-editor.png" width="240" alt=""> | [打开](https://vr-jobs.github.io/Flower-HUA/demos/flower-editor-lite.html) | [`demos/flower-editor-lite.html`](demos/flower-editor-lite.html) | 2.8 MB |
+| 🖐 | **鲜花编辑器** 完整版（含 AR 手势） | <img src="images/demo-flower-editor-ar.png" width="240" alt=""> | [打开](https://vr-jobs.github.io/Flower-HUA/demos/flower-editor.html) | [`demos/flower-editor.html`](demos/flower-editor.html) | 29 MB |
+| 🌈 | **鲜花世界** Flower World | <img src="images/demo-flower-world.png" width="240" alt=""> | [打开](https://vr-jobs.github.io/Flower-HUA/demos/flower-world.html) | [`demos/flower-world.html`](demos/flower-world.html) | 2.5 MB |
+| 🚶 | **花园漫游** Garden Walk | <img src="images/demo-garden-walk.png" width="240" alt=""> | [打开](https://vr-jobs.github.io/Flower-HUA/demos/garden-walk.html) | [`demos/garden-walk.html`](demos/garden-walk.html) | 2.4 MB |
+| 🖼 | **花朵画廊** Gallery | <img src="images/demo-gallery.png" width="240" alt=""> | [打开](https://vr-jobs.github.io/Flower-HUA/demos/gallery.html) | [`demos/gallery.html`](demos/gallery.html) | 2.4 MB |
+| 🛠 | **Flower Studio** 完整工作台 | <img src="images/demo-flower-studio.png" width="240" alt=""> | [打开](https://vr-jobs.github.io/Flower-HUA/demos/flower-studio.html) | [`demos/flower-studio.html`](demos/flower-studio.html) | 45 MB |
 
 > ⚠️ 完整版编辑器（29 MB）和 Flower Studio（45 MB）体积较大，在线打开需要等待较长时间。建议**下载后本地双击运行**。
 
