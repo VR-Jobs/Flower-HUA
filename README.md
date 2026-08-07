@@ -8,6 +8,27 @@ One procedural flower engine, six ways to play with it. Every page is a single s
 
 ---
 
+## 🎬 动态预览 · Animated preview
+
+六个 demo 的实录动画，全部由无头浏览器逐帧录制（软件渲染，非屏幕录像）。
+
+<table>
+<tr>
+<td width="50%" align="center"><img src="images/gif-display-case.gif" alt="花朵陈列柜"><br><b>🗂 花朵陈列柜</b><br><sub>空格键，40 种花错峰绽放再一起合拢</sub></td>
+<td width="50%" align="center"><img src="images/gif-gallery.gif" alt="花朵画廊"><br><b>🖼 花朵画廊</b><br><sub>单朵花从花苞展开的完整过程</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="images/gif-flower-editor.gif" alt="鲜花编辑器"><br><b>🎨 鲜花编辑器</b><br><sub>生长回放：整座花园按种植顺序破土绽放</sub></td>
+<td align="center"><img src="images/gif-flower-studio.gif" alt="Flower Studio"><br><b>🛠 Flower Studio</b><br><sub>Replay Bloom：参数工作台里的单朵重绽</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="images/gif-garden-walk.gif" alt="花园漫游"><br><b>🚶 花园漫游</b><br><sub>第三人称小人在花园里行走</sub></td>
+<td align="center"><img src="images/gif-flower-world.gif" alt="鲜花世界"><br><b>🌈 鲜花世界</b><br><sub>穿行于上千朵花铺满的花海</sub></td>
+</tr>
+</table>
+
+---
+
 ## 六个项目 · The six
 
 | | 项目 | 截图 | 云端预览 | 文件 | 大小 |
@@ -92,27 +113,6 @@ node src/build-flower-page.cjs all          gallery.html
 `src/verify-grid.cjs` 与 `src/verify-editor.cjs` 是对应的无头浏览器验收脚本（Playwright + swiftshader）。
 
 > ⚠️ **构建需要 Flower-HUA Studio 源码树**（入口文件 `import` 自 `../../Studio/components/flower/`），本仓库未包含。这里放源码是为了让实现可读、可审阅，不是一个开箱即用的构建。
-
----
-
-## 🎬 动态预览 · Animated preview
-
-六个 demo 的实录动画，全部由无头浏览器逐帧录制（软件渲染，非屏幕录像）。
-
-<table>
-<tr>
-<td width="50%" align="center"><img src="images/gif-display-case.gif" alt="花朵陈列柜"><br><b>🗂 花朵陈列柜</b><br><sub>空格键，40 种花错峰绽放再一起合拢</sub></td>
-<td width="50%" align="center"><img src="images/gif-gallery.gif" alt="花朵画廊"><br><b>🖼 花朵画廊</b><br><sub>单朵花从花苞展开的完整过程</sub></td>
-</tr>
-<tr>
-<td align="center"><img src="images/gif-flower-editor.gif" alt="鲜花编辑器"><br><b>🎨 鲜花编辑器</b><br><sub>生长回放：整座花园按种植顺序破土绽放</sub></td>
-<td align="center"><img src="images/gif-flower-studio.gif" alt="Flower Studio"><br><b>🛠 Flower Studio</b><br><sub>Replay Bloom：参数工作台里的单朵重绽</sub></td>
-</tr>
-<tr>
-<td align="center"><img src="images/gif-garden-walk.gif" alt="花园漫游"><br><b>🚶 花园漫游</b><br><sub>第三人称小人在花园里行走</sub></td>
-<td align="center"><img src="images/gif-flower-world.gif" alt="鲜花世界"><br><b>🌈 鲜花世界</b><br><sub>穿行于上千朵花铺满的花海</sub></td>
-</tr>
-</table>
 
 ## 📄 许可 · Licence
 
